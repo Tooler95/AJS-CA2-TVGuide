@@ -1,0 +1,459 @@
+/**
+ * @Date:   2020-01-28T09:05:01+00:00
+ * @Last modified time: 2020-02-14T15:55:59+00:00
+ */
+
+
+
+.App {
+  text-align: center;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+html,body{
+  background-image: url(./images/moviebg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.allHeadings{
+  color: white;
+}
+
+/* ------------- Styles for Login and Register Components ------------------- */
+
+.loginregistertop{
+  margin-top: 10em;
+  border: 0 !important;
+
+}
+.loginregister{
+  background-color: #343A40 !important;
+  color: white;
+  font-family: sans-serif;
+  border: 1px solid #ad7c2b !important;
+  border-bottom: 5px solid #ad7c2b !important;
+}
+.loginBtn{
+  background-color: #ad7c2b !important;
+  outline: 0 !important;
+  color: white !important;
+  padding-top: .6em !important;
+}
+.loginregister2{
+  border-top: 0 !important;
+  border-right: 0 !important;
+  border-left: 0 !important;
+  background-color: white !important;
+}
+.loginfooter{
+  padding: 0 !important;
+  border: 1px solid #ad7c2b !important;
+}
+.loginCollapse{
+  border-top: 5px solid #ad7c2b !important;
+}
+.regIcons{
+  background-color: white;
+}
+.regFooter{
+  background-color: #343A40;
+  height: 4em;
+}
+.loginTemplates{                       /*need to change this*/
+  background-color: #343A40;
+  color: white;
+  padding: .5em;
+  font-size: 14px;
+}
+
+.loginTemplates__contentInner {
+  padding: 10px;
+  padding-bottom: 0;
+  border: 1px solid $lightGrey;
+  border-top: 0;
+
+  p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 20px;
+
+  }
+}
+
+.mynavbar{
+  border-top: 7px groove #ad7c2b;
+  border-bottom: 7px groove #ad7c2b;
+}
+
+.emptyPagesText{
+  font-size: 80px;
+}
+
+.welcomeHeader{
+  font-size: 80px;
+  margin-bottom: 0;
+  margin-top: 1em;
+}
+
+.formAnimations{
+  margin-top: 20%;
+    position: relative;
+      -webkit-animation-name: intro-cards; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+      animation-name: intro-cards;
+      animation-duration: .8s;
+
+}
+@keyframes intro-cards {
+  0%   {opacity:0; left:0px; top:200px;}
+  100%  {opacity: 1; left:0px; top:0px;}
+
+}
+
+.emptyPages{
+  float: left;
+  margin-top: 25%;
+    position: relative;
+      -webkit-animation-name: intro-cards; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+      animation-name: intro-cards;
+      animation-duration: .4s;
+
+}
+@keyframes intro-cards {
+  0%   {opacity:0; left:0px; top:200px;}
+  100%  {opacity: 1; left:0px; top:0px;}
+
+}
+
+.emptyPages2{
+    position: relative;
+      -webkit-animation-name: intro-cards; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+      animation-name: intro-cards;
+      animation-duration: .7s;
+
+}
+@keyframes intro-cards {
+  0%   {opacity:0; left:0px; top:200px;}
+  100%  {opacity: 1; left:0px; top:0px;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------- Stling for Show Index -------------------- */
+
+.showHeading{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 52px;
+}
+
+.showCard{
+  border: 1px solid black !important;
+  margin-bottom: 1em;
+}
+
+.episodeNo{
+  margin-top: 1em;
+}
+
+.showCards__trigger{                       /*need to change this*/
+  padding: .5em;
+  font-size: 24px;
+  width: 200px !important;
+
+}
+.showCards__contentInner {
+  padding: 0;
+}
+
+.showCardsEpisodes{
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+
+.showCardsEpisodes__trigger{                       /*need to change this*/
+background-color: #ad7c2b;
+padding: .6em;
+border-radius: .5em;
+color: white
+
+}
+.showCardsEpisodes__contentInner {
+
+}
+
+.addEpisode{
+  float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.showHead{
+  float: left;
+  padding-left: .5em;
+  padding-top: .25em;
+}
+
+.inboxCard{
+  border: 1px solid black;
+  margin-bottom: .5em;
+}
+
+.pageHead{
+float: left;
+margin-top: .35em;
+margin-left: .35em;
+}
+.btns{
+  float: right;
+}
+.editButton2{
+  float: right;
+  padding: .1em .2em .1em .2em;
+}
+.addButton{
+  float: right;
+  padding-bottom: .1em;
+  margin-right: .5em;
+}
+.episodeDesc{
+  text-align: left;
+}
+.viewButton{
+  float: right;
+  padding: .1em .2em .1em .2em;
+}
+.cardFooter{
+  padding-left: .25em;
+  padding-top: .25em;
+  padding-right: .25em;
+  padding-bottom: .25em;
+  border-top: 6px solid #ad7c2b !important;
+  background-color: #343A40 !important;
+}
+.cardCollapse{
+  background-color: #ad7c2b !important;
+}
+.descCollapse:hover{
+  background-color: white !important;
+  color: #343A40 !important;
+  transform: scale(1.02);
+}
+
+
+.episodeBtn{
+  margin-left: 1em;
+  margin-right: .5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.topSpace{
+  margin-top: .5em;
+}
+
+
+.modalstyles {
+ width: 15em;
+ left:40%;
+}
+
+.btnPadding{
+  margin-left: .5em;
+}
+
+.deleteBtn{
+  padding: .1em .1em .1em .1em;
+  margin-left: .5em;
+}
+
+.testK{
+  color: red !important;
+}
+
+.pageTitle
+{
+  text-align: center;
+}
+
+.actorbtn{
+  margin-left: .6em;
+}
+.deleteButton{
+  float: right;
+}
+.editButton{
+  float: left;
+  padding: .1em .2em .1em .2em;
+}
+.corner{
+  padding-top: .2em;
+  padding-right: .2em;
+  padding-left: .2em;
+  padding-bottom: 0;
+}
+
+.testtext:hover:after{
+  content: 'View Genres';
+  font-size: 24px;
+}
+
+.pagehead{
+  margin-top: .8em;
+  font-family: 'PT Serif', serif;
+  font-size: 32px;
+}
+.returnBtn{
+  margin-left: 2em;
+  color: green;
+}
+
+
+.returnBtn2{
+  float: right;
+  color: green;
+  margin-bottom: .5em;
+}
+.returnBtn:hover{
+  transform: scale(1.2);
+  color: red;
+}
+.returnBtn2:hover{
+  transform: scale(1.2);
+  color: red;
+}
+
+.titleIcons:hover{
+color: red;
+transform: scale(1.05);
+-moz-transition: all 1s linear;
+-webkit-transition: all 1s linear;
+transition: all 1s linear;
+}
+
+.suggestion{
+  color: red;
+}
+
+.inputIcons{
+  margin-left: 1em;
+}
+
+.episodecards{
+  padding-left:0;
+  padding-right: 0;
+  padding-bottom: 0;
+  margin-bottom: .5em;
+  border: .5px solid grey;
+}
+
+.director{
+  float: right;
+}
+
+.addIconsbg{
+  background-color: transparent;
+  color: green;
+  border-left: none;
+}
+.addIconsbg:hover{
+  background-color: white;
+  color: green;
+  border-right: 0;
+  border-top: 0;
+}
+
+.addIcons:active{
+  transform: scale(1.25);
+  -moz-transition: all .1s linear;
+-webkit-transition: all .1s linear;
+transition: all .1s linear;
+}
+
+.removeborders{
+  border-left:none;
+  border-right: 0;
+}
+
+.myicons:hover{
+  transform: scale(1.25);
+  -moz-transition: all .05s linear;
+-webkit-transition: all .05s linear;
+transition: all .05s linear;
+}
